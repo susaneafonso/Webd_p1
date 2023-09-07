@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Holtwood+One+SC&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine&family=Holtwood+One+SC&family=Patrick+Hand&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Domine&family=Holtwood+One+SC&family=Patrick+Hand&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Domine&family=Holtwood+One+SC&family=Lora:ital@1&family=Patrick+Hand&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body{
+    background-color:#EDEDE9;
+}
+
+.middle,.top{
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+    width:100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.tempo,.dictio,.number,.ipe{
+    border: 2px solid;
+    height: 290px;
+    width: 350px;
+    margin-left: 40px;margin-right: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    word-spacing: -2px;
+}
+
+.ipe{
+    border: 2px solid;
+    height: 290px;
+    width: 350px;
+    margin-left: 40px;margin-right: 40px;
+    font-size: 10px;
+    border-radius: 10px;
+    word-spacing: -2px;
+}
+
+.tempo{
+   display: inline-block;
+   background-color:#ABC4FF ;
+   font-family: 'DM Serif Display', serif;
+   color: white;
+   text-shadow: 2px 2px 4px rgba(50, 24, 78, 0.5);
+}
+
+.tempo h1,.tempo h2{
+   font-size: 20px;
+   width: 140px;
+   margin: 30px;
+   height: 50px;
+   margin-top: -100px;
+   margin-left: 180px; 
+   z-index: 2;
+}
+
+.tempo #imgWet{
+   width: 80px;
+   margin-left: 220px;
+   position: absolute;
+   margin-top: -200px;
+   height: 80px;
+   font-size: 80px;
+   font-family:'Patrick Hand', cursive; 
+   display: flex;
+   z-index: 3;
+}
+
+.tempo img{
+   display: flex;
+   height: 150px;
+   width: 150PX;
+   z-index: 1;
+   margin-top: 60px;
+   position: relative;
+   margin-left: 30px;
+}
+
+.tempo #weath{
+   display: none;
+}
+
+.tempo:hover{
+   border: 4px solid ;
+}
+
+.inf{
+   height: 100px;
+   display: block;
+   width: 120px;
+   margin-left: 210px;
+   margin-top: -90px;
+   z-index: 3;
+   position: relative;
+}
+
+.inf h3{
+   font-size: 15px;
+   margin-top: 0;
+}
+
+#btn_w{
+   margin-left: 130px;
+   margin-top: 30px;
+   border-radius: 10px;
+   width: 100px;
+   height: 20px;
+   background-color: white;
+   font-family: 'DM Serif Display', serif; 
+   border: white;
+   color:rgb(37, 33, 33);
+}
+
+#btn_w:hover{
+   cursor: pointer;
+   background-color: rgb(35, 35, 107);
+   color: white;
+}
+
+.ipe{
+   background-color: #d5e1fc;
+   border: 2px solid white;
+   font-size: 10px;
+}
+
+.ipe:hover{
+    border: 4px solid white;
+}
+
+.ipe .tittle{
+   display: inline-block;
+   background-color: #EDEDE9;
+   width: 100%;
+   height: 30px;
+   font-size: 20px;
+   text-align: center;
+   border-top-left-radius:  10px;
+   border-top-right-radius:  10px;
+   color:rgb(37, 33, 33);
+}
+
+.ipe h2{
+   text-align: center;
+}
+
+#ip{
+   font-size: 40px;
+   color: #382847;
+}
+
+.ipe #ip:hover{
+   color: #6a3f92;
+   cursor: pointer;
+}
+
+.quadro{
+   border: 2px solid black;
+   margin-top: -20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: black;
+}
+
+.quadro h2{
+   border:1px solid rgb(255, 255, 255);
+   margin: 0px;
+   word-spacing: 2px;
+   text-align: left;
+   color: white;
+   padding: 5px;
+}
+
+.quadro h2:hover{
+   color: red;
+}
+
+.dictio{
+   display: flex;
+   background-color:rgb(211, 228, 233);
+   justify-content: center;
+   border: 2px solid white;
+}
+
+#mcd{
+   display: flex;
+   height: 40px;
+   width: 40px;
+   border-radius:100px;
+   margin-top: 43px;
+   margin-left: -200px;
+   display: absolute;
+}
+
+.dictio:hover{
+   border: 4px solid white;
+}
+
+#mcd:hover{
+   border: 2px solid #7c7c92;  
+}
+
+#dic_s{
+   display:flex;
+   height:25px;
+   margin-top: 50px;
+   border-radius: 20px;
+   border: 2px solid white;
+   background-color: #EDEDE9;
+   margin-left: 30px;
+   position:absolute;
+}
+
+#dic_s:hover{
+   cursor: pointer;
+}
+
+#dic_s::placeholder{
+   text-align: center;
+}
+
+#lupa{
+    height: 16px;
+    width: 16px;
+    display: flex;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 55px;
+}
+
+#lupa:hover{
+    cursor: pointer;
+}
+
+.resp{
+   display: block;
+   margin-top: 100px;
+   width: 210px;
+   height: 170px;
+   position: absolute;
+   z-index: 1;
+   color:rgb(92, 86, 86);
+}
+
+.resp h2{
+    width: 210px;
+    height: 20px;
+    margin: 0px;
+    font-size: 13px;
+    word-spacing: 2px;
+    font-family: 'EB Garamond', serif;
+}
+
+#pesq{
+    width: 210px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+
+#mean{
+    height: 40px; 
+    border-bottom: 2px dotted white;
+}
+
+#more{
+    border-bottom: 2px dotted white;
+}
+
+.number{
+    display: flex;
+    border: 2px solid white;
+    background-color: #ABC4FF;
+    color:rgb(37, 33, 33);
+}
+
+.number:hover{
+    border: 4px solid white;
+}
+
+#nfact{
+    height: 180px;
+    width: 150px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align:start;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#geek{
+    height: 160px;
+    width: 160x;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+#nfact {
+    animation: fadeIn 6s ease-in forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

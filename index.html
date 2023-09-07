@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with api</title>
+    <link rel="stylesheet" href="scr/style.css"> 
+</head>
+<body>
+   
+         <div  class="top">
+                         <div class="tempo" onclick="tempo_page()"> 
+                              <img id="imgtp"  src="">
+                              <h1 id="imgWet">as</h1>
+                              <div class="inf">    
+                              <h3 id="humidity"></h3>
+                              <h3 id="wind_speedy"></h3>
+                              <h3 id="city"></h2>
+                              <h3 id="weath"></h2>
+                              </div>
+                              <button id="btn_w">Ver previsão</button>                             
+                         </div>
+                         <div class="ipe">
+                               <div class="tittle">What is my IP address?</div>
+                               <h2 id="ip"></h2> 
+                               <div class="quadro">                          
+                               <h2 id="cit" ></h2>
+                               <h2 id="reg" ></h2>
+                               <h2 id="ctry" ></h2>
+                               <h2 id="zip" ></h2> 
+                               <h2 id="isp" ></h2>
+                               </div>
+                                                            
+                         </div>
+         </div>
+         <div class="middle">
+                         <div class="dictio">                     
+                               <img id="mcd" src="/scr/img/ipe/mdc.jpg">
+                               <h2 id="dic"></h2>
+                               <input type="search" name="search" id="dic_s" onkeydown="get_user_s(event)"   placeholder="Pesquisar">
+                               <img id="lupa" src="/scr/img/ipe/magnifying-glass.png">
+                               <div class="resp">
+                               <h2 id="pesq">❥ Friend</h2>
+                               <h2 >noun:</h2>
+                               <h2 id="mean" >a person attached to another by feelings of affection or personal regard</h2>
+                               <h2 id='more'>synonyms▹ </h2>
+                               <h2 id="opos">OPPOSITES▹ enemy, foe </h2>
+                               </div>
+                         </div>
+                              
+                    
+                         <div class="number">
+                               <h2 id="nfact"></h2>
+                               
+                               <img id="geek" src="/scr/img/professora.png">
+                         </div>
+         </div>
+                            
+</body>
+   <script>
+       function tempo_page(){window.open("https://www.climatempo.com.br", '_blank')}
+   </script>
+   <script src="node_modules/axios/dist/axios.min.js"></script>
+   <script src="scr/main.js"></script>
+
+</html>
